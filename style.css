@@ -1,0 +1,30 @@
+body{
+    background:red;
+}
+img{
+    width:500px;
+    height:400px;
+    border:solid 10px yellow;
+}
+.container{
+    margin-top:80px;
+    gap:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inactive{
+    display:none;
+}
+h1{
+    text-align:center;
+    color:yellow;
+    font-weight: bolder;
+}
+#prev,#next{
+    color:white;
+    background: rgb(144, 194, 71);
+    padding:15px 15px 15px 15px;
+    border:solid 4px black;
+    border-radius:10px;
+}
